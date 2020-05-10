@@ -1,0 +1,13 @@
+﻿@model IEnumerable<CRUDOnboardingReactJS.Models.Store>
+@using System.Web.Optimization
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id='store'></div>
+@section Scripts{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <script src="~/Scripts/react/dist/store.bundle.js"></script>
+}
