@@ -19,7 +19,7 @@
     "react-tag-input": "^6.4.2",
     "semantic-ui-react": "^0.88.2",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "jquery": "^3.5.1",
